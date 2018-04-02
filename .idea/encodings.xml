@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/common-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/common/tookit-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-otherclient" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/serice-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-zuul" charset="UTF-8" />
+    <file url="file://G:/学习文档/springBoot学习/springBoot_Learning/SpringBoot-Learning/Chapter2-1-1" charset="UTF-8" />
+    <file url="file://G:/学习文档/springBoot学习/springBoot_Learning/SpringBoot-Learning/Chapter4-4-2" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

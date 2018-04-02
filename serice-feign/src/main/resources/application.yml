@@ -1,0 +1,11 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8765
+spring:
+  application:
+    name: service-feign
+# 设置断路由打开
+feign.hystrix.enabled : true

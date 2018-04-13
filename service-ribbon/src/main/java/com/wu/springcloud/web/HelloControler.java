@@ -35,9 +35,17 @@ public class HelloControler {
      * @return
      */
     @RequestMapping(value = "/testRibbon")
-    public String TestRibbon(@RequestParam String name){
+    public String testRibbon(@RequestParam String name){
         return helloService.ribbonTest(name);
     }
 
+    /**
+     * 测试ribbon负载均衡
+     * @return
+     */
+    @RequestMapping(value = "/one")
+    public String TestRibbonOne(){
+        return "test";
+    }
 
 }

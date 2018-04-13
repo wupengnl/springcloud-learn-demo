@@ -43,18 +43,18 @@ public class FilterUtils extends ZuulFilter {
         HttpServletRequest request = ctx.getRequest();
         log.info(String.format("%s >>> %s", request.getMethod(), request.getRequestURL().toString()));
         Object accessToken = request.getParameter("token");
-        if(accessToken == "wupeng") {
+        if(accessToken == null) {
             log.warn("token is error or empty");
             ctx.setSendZuulResponse(false);
             ctx.setResponseStatusCode(401);
             try {
                 ctx.getResponse().getWriter().write("token is empty");
             }catch (Exception e){}
-
+            log.info("ok");
             return null;
+        }else{
+            return "token is empty";
         }
-        log.info("ok");
-        return null;
     }
 
 }

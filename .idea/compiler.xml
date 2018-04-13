@@ -15,6 +15,8 @@
         <module name="eureka-otherclient" />
         <module name="eureka-server" />
         <module name="serice-feign" />
+        <module name="server-zipkin" />
+        <module name="service-miya" />
         <module name="service-ribbon" />
         <module name="service-zuul" />
         <module name="springboot-parent (1)" />
@@ -32,6 +34,8 @@
       <module name="eureka-otherclient" target="1.7" />
       <module name="eureka-server" target="1.7" />
       <module name="serice-feign" target="1.7" />
+      <module name="server-zipkin" target="1.7" />
+      <module name="service-miya" target="1.7" />
       <module name="service-ribbon" target="1.7" />
       <module name="service-zuul" target="1.7" />
       <module name="springboot-parent" target="1.7" />

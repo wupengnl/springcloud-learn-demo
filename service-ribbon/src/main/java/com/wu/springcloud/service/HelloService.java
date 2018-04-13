@@ -16,7 +16,7 @@ public class HelloService {
     @Autowired
     RestTemplate restTemplate;
 
-    /** @HystrixCommand添加断路由 **/
+    /** @HystrixCommand添加断路由 并指定 了下面熔断的方法：返回默认的值 **/
     @HystrixCommand(fallbackMethod = "hiError")
     public String hiService(String name) {
         return restTemplate.getForObject("http://SERVICE-HI/hi?name="+name,String.class);
